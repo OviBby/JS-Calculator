@@ -2,9 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="web, html, css, javascript, js, java, python">
+    <meta name="description" content="World best web development tutorials">
+    <meta name="Calculator" content="Calculator">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="asset/normalize.css">
+    <link rel="stylesheet" href="CalculatorCss.css">
     <title>Calculator</title>
+
+
 </head>
 <body>
+<div class="calculator">
+    <div id="display" class="display">0</div>
+    <div class="buttons">
 
+        <button class="clear" onclick="clearDisplay()">C</button>
+
+        <button class="operator" onclick="appendOperator('%')">%</button>
+
+
+        <button class="operator" onclick="appendOperator('/')">/</button>
+
+        <button onclick="appendnum('7')">7</button>
+        <button onclick="appendnum('8')">8</button>
+        <button onclick="appendnum('9')">9</button>
+        <button class="operator" onclick="appendOperator('*')">*</button>
+
+
+        <button onclick="appendnum('4')">4</button>
+        <button onclick="appendnum('5')">5</button>
+        <button onclick="appendnum('6')">6</button>
+        <button class="operator" onclick="appendOperator('-')">-</button>
+
+
+        <button onclick="appendnum('1')">1</button>
+        <button onclick="appendnum('2')">2</button>
+        <button onclick="appendnum('3')">3</button>
+        <button class="operator" onclick="appendOperator('+')">+</button>
+        <button  onclick="appendOperator('.')">.</button>
+        <button onclick="appendnum('0')">0</button>
+
+        <button class="equal" onclick="calculate()">=</button>
+
+
+
+
+
+
+
+
+    </div>
+</div>
 </body>
 </html>
