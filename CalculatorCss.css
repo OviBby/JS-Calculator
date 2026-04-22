@@ -9,7 +9,7 @@ body {
 }
 
 .calculator {
-   background-color: palegreen;
+   background-color: #373c37;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -64,7 +64,7 @@ button{
 }
 
 button:hover{
-    background-color: #7a2187;
+    background-color:#d371e1 ;
 }
 
 button:active{
@@ -73,7 +73,7 @@ button:active{
 
 .equal{
 
-    background-color: #d371e1;
+    background-color: #7a2187;
     color: white;
 }
 
